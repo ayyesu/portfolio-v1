@@ -2,9 +2,16 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Arvo', serif;
+}
+
+body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Arvo', serif;
+}
+
+.one {
+    background-color: rgb(228, 222, 222);
 }
 
 nav {
@@ -53,15 +60,14 @@ nav {
     margin-top: 50px;
 }
 
-button {
+.cv {
     height: 40px;
     width: 200px;
     margin-top: 60px;
-    flex-direction: row;
     background: rgb(230, 45, 91);
 }
 
-button:hover {
+.cv:hover {
     cursor: pointer;
 }
 
@@ -76,6 +82,7 @@ button:hover {
     width: 30px;
     margin-top: 0.5px;
     margin-left: 32rem;
+    margin-bottom: 70px;
 }
 
 .socials {
@@ -88,3 +95,45 @@ button:hover {
     height: 40px;
     width: 40px;
 }
+
+.two {
+    margin-top: 150px;
+}
+
+.section_two {
+    display: flex;
+    margin-top: 150px;
+}
+
+.about {
+    margin-left: 67em;
+}
+
+
+.hire_me {
+    height: 40px;
+    width: 200px;
+    margin-top: 60px;
+    background: rgb(230, 45, 91);
+}
+
+.skill {
+    margin-top: 8em;
+    margin-left: 32em;
+}
+
+.progress-bar {
+	position: relative;
+	width: 400px;
+	height: .5em;
+	background-color: #111;
+	border-radius: 1.5em;
+	color: white;
+}
+
+.progress {
+    display: flex;
+}
+
+
+
