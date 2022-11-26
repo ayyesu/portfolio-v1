@@ -5,6 +5,7 @@
     font-family: 'Arvo', serif;
 }
 
+
 body {
     margin: 0px;
     padding: 0px;
@@ -120,6 +121,7 @@ nav {
 .skill {
     margin-top: 8em;
     margin-left: 32em;
+    box-shadow: 10px;
 }
 
 .progress-bar {
@@ -133,7 +135,58 @@ nav {
 
 .progress {
     display: flex;
+    
 }
+
+.col-2 {
+    margin-left: 30px;
+}
+
+.third {
+    margin-top: 150px;
+    margin-left: 32em;
+}
+
+.projects {
+    margin-top: 50px;
+    margin-left: 1em;
+    display: flex;
+}
+
+.card {
+    height: 270px;
+    width: 270px;
+    background-image: url('../images/moviezone.png');
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.card:hover {
+    cursor: pointer;
+    opacity: 60%;
+    transform: scale(1.03)
+}
+
+.links {
+    margin-top: 200px;
+    margin-left: 100px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: #999;
+    width: 70px;
+}
+
+.links a img {
+    height: 35px;
+    width: 30px;
+}
+
+.project-name {
+    margin-left: 5em;
+}
+
+
 
 
 
