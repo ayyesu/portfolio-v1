@@ -55,8 +55,12 @@ nav {
 }
 
 .info {
-    
     margin-top: 50px;
+}
+
+.info-text{
+    display: flex;
+    justify-content: center;
 }
 
 .cv {
