@@ -17,14 +17,12 @@ body {
 
 nav {
     display: flex;
-    margin-top: 30px;
-    
+    justify-content: space-between;
 }
 
 .nav-list {
     display: flex;
     align-items: center;
-    margin-left: 50rem;
     list-style-type: none;
 }
 
