@@ -157,22 +157,38 @@ nav {
 }
 
 .links {
-    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 6px;
+    border: 0rem solid white;
     border-radius: 20px;
     background: #999;
-    width: 70px;
+    width: 5rem;
 }
 
 .links a img {
     height: 35px;
     width: 30px;
+    margin-left: 6px;
+    padding: 0px 2px;
+}
+
+.padding{
+    display: flex;
+    padding: 4px 2px;
 }
 
 .project-name {
     margin-left: 5em;
 }
 
+.third{
+    background: rgb(224, 13, 66);
+    margin: 0 auto;
+}
 
-
+.third h2{
+    display: flex;
+    justify-content: center;
+}
 
 
