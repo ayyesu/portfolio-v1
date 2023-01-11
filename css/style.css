@@ -191,4 +191,53 @@ nav {
     justify-content: center;
 }
 
+.fourth{
+    background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+}
+
+.white{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.resume{
+    display: flex;
+    justify-content: center;
+}
+
+.category{
+   margin-top: 4px;
+}
+
+.education{
+    display: flex;
+    justify-content: center;
+}
+
+.edu1{
+    background-color:rgb(180, 175, 175);
+    border: 0 solid red;
+    border-radius: 8px;
+}
+
+.edu1:hover{
+    transform: scale(1.03);
+    border: 2px solid red;
+}
+
+.edu2{
+    background-color:rgb(180, 175, 175);
+    border: 0 solid red;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.edu2:hover{
+    transform: scale(1.03);
+    border: 2px solid red;
+}
+
+.pd{
+    padding: 10px;
+}
 
